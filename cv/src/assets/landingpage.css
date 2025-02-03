@@ -1,0 +1,142 @@
+  * {
+    list-style: none;
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    height: fit-content;
+    color: #1e1e1e;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero {
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Banner */
+
+.hero-banner {
+    display: flex;  /* Đặt flexbox cho bố cục */
+    justify-content: center; /* Căn giữa nội dung */
+    align-items: center;
+    max-width: 1280px;
+    gap: 35px;
+    height: fit-content;
+    text-align: center;
+    margin: 0 auto; /* Để giữ banner ở giữa */
+    position: relative;
+}
+
+
+.hero-banner aside {
+    max-width: 400px;
+    height: 900px;
+    z-index: 1; /* Để đặt nội dung lên trước */
+    
+}
+
+.hero-banner-aside-l {
+    transform:scaleX(-1);
+    position: relative;
+}
+
+
+.hero-banner img {
+    width: 800px;
+    height: 900px;
+}
+
+.hero-banner-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 95px;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+
+.hero-banner-content h1 {
+    font-size: 200px;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.hero-banner-content-btn {
+    font-size: 32px;
+    font-weight: bolder;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5%;
+    border-radius: 100px;
+    border: 1px solid #000000;
+}
+
+.hero-banner-content-btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Introduce section */
+.introduce-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+    padding: 60px 200px 100px;
+}
+
+.introduce-web-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column; 
+}
+
+.introduce-web-content-title {
+    display: flex;
+    flex-direction: column;
+    gap:0;
+}
+
+.introduce-web-content h2 {
+    font-size: 75px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.introduce-web-content hr {
+    width: 65px;
+    height: 21px;
+    background-color: #000000;
+}
+
+.introduce-web-content p {
+    font-size: 20px;
+    width: 75%;
+    height: fit-content;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -5%;
+}
+
+.introduce-web-img {
+    width: 50%;
+    height: 100%;
+}
+
